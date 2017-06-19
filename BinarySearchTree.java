@@ -90,7 +90,7 @@ public class BinarySearchTree {
 
 
     // Checks if this BinarySearchTree contains the given value.
-    // Returns true iff the value is present in this BinarySearchTree.
+    // Returns true if the value is present in this BinarySearchTree.
     public boolean find(int value) {
     	Node temp =root;
     	while(temp!=null) {
@@ -116,7 +116,7 @@ public class BinarySearchTree {
 
     // Returns the number of entries in this BinarySearchTree that are
     // less than value.
-//    public int numLessThan(int value) {
+ public int numLessThan(int value) {
 	// TODO: You should implement numLessThan() here.
 	// Note that you will likely want to implement a helper
 	// method in the Node class above.
@@ -159,13 +159,13 @@ public class BinarySearchTree {
     	
 
     	}
-    	
-	return 0;*/
+    */	
+	return 0;
 }
 
     // Delete the given value in this tree if present
     // Returns true if the item was present and deleted.
-//     public Node delete(int value) {
+   public void delete(int value) {
 // // TODO: Implement delete here.
 //     	if(root==null){
 //     		return root;
@@ -200,4 +200,5 @@ public class BinarySearchTree {
 // 		minRightTree(root.leftChild);
 // 	}
 //  }
+}
 }
